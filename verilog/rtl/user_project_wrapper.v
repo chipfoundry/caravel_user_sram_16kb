@@ -82,7 +82,7 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-CF_SRAM_4096x32_wb_wrapper mprj (
+CF_SRAM_4096x32 mprj (
 `ifdef USE_POWER_PINS
 	.VPWR(vccd1),	// User area 1 1.8V power
 	.VGND(vssd1),	// User area 1 digital ground
